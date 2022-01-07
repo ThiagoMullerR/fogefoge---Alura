@@ -144,9 +144,3 @@ void lemapa(MAPA* m){
     //}
 
 }
-void imprimemapa(MAPA* m){
-    // Então Economizamos imprimindo o mapa apenas linha por linha.
-    for(int i = 0; i < 5; i++){
-        printf("%s\n", m->matriz[i]);
-    }
-}
